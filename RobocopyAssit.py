@@ -186,7 +186,7 @@ def run_robocopy(src_path, dst_path):
 		# Options de copie
 		"/e", "/zb", "/dcopy:dat", "/copyall", "/secfix", "/timfix", "/mir", "/a+:RA", "/a-:SHNT",\
 		# Options de sélections de fichier
-		"/xd", "System Volume Information", "$RECYCLE.BIN", "LOG",\
+		"/xd", "System Volume Information", "$RECYCLE.BIN", "RobocopyAssit", "LOG",\
 		# Options de nouvelle tentative
 		"/r:3", "/w:10",\
 		# Options du journal
