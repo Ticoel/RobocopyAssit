@@ -1,6 +1,6 @@
 # Comment générer l'exécutable sous Python 3.10 ?
 
-pyinstaller RobocopyAssit.py --exclude-module _bootlocale
+`pyinstaller RobocopyAssit.py --exclude-module _bootlocale`
 
 
 # Comment installer l'exécutable ?
