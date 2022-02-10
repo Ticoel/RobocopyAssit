@@ -241,4 +241,5 @@ Press y (yes) to continue or any key to quit...\n"\
 	print("{:-<80}".format(""))
 
 	print("Bakup completed!")
+	input("Press Enter to quit...")
 	
